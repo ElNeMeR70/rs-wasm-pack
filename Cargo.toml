@@ -1,0 +1,10 @@
+[package]
+name = "rs-wasm-pack"
+version = "1.0.0"
+edition = "2021"
+description = "wasm-pack-compatible Rust to WASM build toolchain"
+license = "MIT"
+
+[[bin]]
+name = "rs_wasm_pack"
+path = "main.rs"
